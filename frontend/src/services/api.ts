@@ -1,7 +1,7 @@
 import axios from 'axios';
 import type { WorkspaceData } from '../types/workspace';
 
-const API_BASE_URL = '/api';
+const API_BASE_URL = 'https://orchestrai-backend-145759249792.us-central1.run.app/api';
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
