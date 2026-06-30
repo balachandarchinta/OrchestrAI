@@ -1,0 +1,44 @@
+# Virtual environment
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+ENV/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Node dependencies
+frontend/node_modules/
+node_modules/
+
+# Frontend builds
+frontend/dist/
+dist/
+
+# Local configuration / API keys
+.env
+backend/.env
+frontend/.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database storage (excluding the seed script itself)
+# We track the seed script, but let the database state remain local / seeded at runtime.
+# However, for a cloned repo to work immediately, checking in the initial seed db.json is useful.
+# We'll allow tracking db.json in git so it clones with the seeded state, but ignore the runtime uploads
+backend/uploads/
+uploads/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini

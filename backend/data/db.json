@@ -1,0 +1,444 @@
+{
+    "workspaces": [
+        {
+            "id": "a1b2c3d4-0001-4001-8001-000000000001",
+            "name": "Q3 Pricing Review",
+            "scenario": "Financial Strategy",
+            "documents": 3,
+            "updated": "2 hours ago",
+            "status": "Analysis Complete",
+            "priority": "Medium",
+            "aiConfidence": 94,
+            "nextBestAction": {
+                "title": "Finish Pricing Approval",
+                "owner": "Bala",
+                "due": "Tomorrow",
+                "reason": "Pricing review meeting tomorrow",
+                "whyDescription": "Based on the latest financial documents uploaded, there is a discrepancy in Q3 projections. Addressing this risk early minimizes potential downstream delays.",
+                "evidence": [
+                    {
+                        "source": "meeting_transcript.txt",
+                        "quote": "Bala: We need the pricing approval finalized before Friday's executive committee meeting."
+                    },
+                    {
+                        "source": "pricing_proposal.txt",
+                        "quote": "Professional tier: $199/mo (updated from $219/mo, resulting in approx 8% margin reduction)"
+                    },
+                    {
+                        "source": "budget_forecast.txt",
+                        "quote": "Estimated margin impact is a reduction of 8% in SaaS margins."
+                    }
+                ]
+            },
+            "timeline": [
+                {
+                    "label": "Workspace Created",
+                    "completed": true
+                },
+                {
+                    "label": "Documents Uploaded",
+                    "completed": true
+                },
+                {
+                    "label": "AI Analysis Completed",
+                    "completed": true
+                },
+                {
+                    "label": "Decision Generated",
+                    "completed": true
+                },
+                {
+                    "label": "Action Approved",
+                    "completed": false
+                },
+                {
+                    "label": "Action Executed",
+                    "completed": false
+                }
+            ],
+            "decisionBrief": [
+                {
+                    "title": "Overall Summary",
+                    "content": "Provide a high-level overview of the Q3 pricing analysis and main takeaways here."
+                },
+                {
+                    "title": "Business Impact",
+                    "content": "Describe how these pricing changes will affect revenue, customer retention, and market positioning."
+                },
+                {
+                    "title": "Key Decisions",
+                    "content": "List the finalized decisions that need to be made during this review."
+                },
+                {
+                    "title": "Open Questions",
+                    "content": "Detail any unresolved issues or missing data required for the final sign-off."
+                },
+                {
+                    "title": "Recommendations",
+                    "content": "Outline the AI-generated recommended actions based on the uploaded documents."
+                }
+            ],
+            "actionItems": [
+                {
+                    "id": "a1",
+                    "status": "Draft",
+                    "task": "Finish Pricing Approval",
+                    "owner": "Bala",
+                    "due": "Tomorrow",
+                    "source": "meeting_transcript.txt"
+                },
+                {
+                    "id": "a2",
+                    "status": "Draft",
+                    "task": "Update Budget",
+                    "owner": "Finance",
+                    "due": "Friday",
+                    "source": "budget_forecast.txt"
+                }
+            ],
+            "risks": [
+                {
+                    "id": "r1",
+                    "risk": "Potential budget overrun in Q4",
+                    "impact": "High",
+                    "mitigation": "Reallocate marketing funds and delay non-critical hires."
+                },
+                {
+                    "id": "r2",
+                    "risk": "Resource constraints in engineering team",
+                    "impact": "Medium",
+                    "mitigation": "Prioritize core features; consider short-term contractors."
+                }
+            ],
+            "generatedContent": {
+                "draftEmail": "Hi Team,\n\nFollowing our Q3 Pricing Review, please note that we need to finalize the pricing approval by tomorrow. Finance is also tasked with updating the budget by Friday.\n\nBest,\nBala",
+                "draftWorkItem": {
+                    "title": "Finalize Q3 Pricing Adjustments",
+                    "description": "Review and approve the latest pricing model proposed during the Q3 planning session.",
+                    "priority": "High"
+                }
+            },
+            "files": [
+                {
+                    "id": "d3d3d3d3-3333-3333-3333-333333333333",
+                    "filename": "budget_forecast.txt",
+                    "extension": "txt",
+                    "size": 267,
+                    "uploadedAt": "2 hours ago",
+                    "status": "Ready",
+                    "characterCount": 267,
+                    "storagePath": "c:/Users/balac/OneDrive/Desktop/working file/OrchestrAI/backend/uploads\\a1b2c3d4-0001-4001-8001-000000000001\\d3d3d3d3-3333-3333-3333-333333333333.txt",
+                    "extractedTextPath": "c:/Users/balac/OneDrive/Desktop/working file/OrchestrAI/backend/uploads\\a1b2c3d4-0001-4001-8001-000000000001\\d3d3d3d3-3333-3333-3333-333333333333_extracted.txt"
+                },
+                {
+                    "id": "d2d2d2d2-2222-2222-2222-222222222222",
+                    "filename": "pricing_proposal.txt",
+                    "extension": "txt",
+                    "size": 270,
+                    "uploadedAt": "2 hours ago",
+                    "status": "Ready",
+                    "characterCount": 270,
+                    "storagePath": "c:/Users/balac/OneDrive/Desktop/working file/OrchestrAI/backend/uploads\\a1b2c3d4-0001-4001-8001-000000000001\\d2d2d2d2-2222-2222-2222-222222222222.txt",
+                    "extractedTextPath": "c:/Users/balac/OneDrive/Desktop/working file/OrchestrAI/backend/uploads\\a1b2c3d4-0001-4001-8001-000000000001\\d2d2d2d2-2222-2222-2222-222222222222_extracted.txt"
+                },
+                {
+                    "id": "d1d1d1d1-1111-1111-1111-111111111111",
+                    "filename": "meeting_transcript.txt",
+                    "extension": "txt",
+                    "size": 379,
+                    "uploadedAt": "2 hours ago",
+                    "status": "Ready",
+                    "characterCount": 379,
+                    "storagePath": "c:/Users/balac/OneDrive/Desktop/working file/OrchestrAI/backend/uploads\\a1b2c3d4-0001-4001-8001-000000000001\\d1d1d1d1-1111-1111-1111-111111111111.txt",
+                    "extractedTextPath": "c:/Users/balac/OneDrive/Desktop/working file/OrchestrAI/backend/uploads\\a1b2c3d4-0001-4001-8001-000000000001\\d1d1d1d1-1111-1111-1111-111111111111_extracted.txt"
+                }
+            ]
+        },
+        {
+            "id": "a1b2c3d4-0002-4002-8002-000000000002",
+            "name": "Vendor Negotiation",
+            "scenario": "Procurement",
+            "documents": 3,
+            "updated": "Yesterday",
+            "status": "Analysis Complete",
+            "priority": "High",
+            "aiConfidence": 87,
+            "nextBestAction": {
+                "title": "Review ACME Corp Contract",
+                "owner": "Legal Team",
+                "due": "Today",
+                "reason": "Missing liability clause detected",
+                "whyDescription": "The uploaded vendor contract for ACME Corp is missing the standard indemnification clause required by our legal department.",
+                "evidence": [
+                    {
+                        "source": "vendor_contract.txt",
+                        "quote": "Section 8: Indemnification [Left blank / Awaiting legal appendix]"
+                    },
+                    {
+                        "source": "negotiation_notes.txt",
+                        "quote": "Standard legal policy requires reciprocal indemnification for all vendors with >$50k annual contract value."
+                    }
+                ]
+            },
+            "timeline": [
+                {
+                    "label": "Workspace Created",
+                    "completed": true
+                },
+                {
+                    "label": "Documents Uploaded",
+                    "completed": true
+                },
+                {
+                    "label": "AI Analysis Completed",
+                    "completed": true
+                },
+                {
+                    "label": "Decision Generated",
+                    "completed": true
+                },
+                {
+                    "label": "Action Approved",
+                    "completed": false
+                },
+                {
+                    "label": "Action Executed",
+                    "completed": false
+                }
+            ],
+            "decisionBrief": [
+                {
+                    "title": "Overall Summary",
+                    "content": "Analysis of the ACME Corp vendor contract reveals standard terms with a few critical omissions."
+                },
+                {
+                    "title": "Business Impact",
+                    "content": "Proceeding without standard liability clauses exposes the company to unnecessary financial risk."
+                },
+                {
+                    "title": "Key Decisions",
+                    "content": "Decide whether to renegotiate terms or accept the current risk profile."
+                },
+                {
+                    "title": "Open Questions",
+                    "content": "Is ACME Corp willing to adopt our standard MSA?"
+                },
+                {
+                    "title": "Recommendations",
+                    "content": "Halt signing until the indemnification clause is fully incorporated."
+                }
+            ],
+            "actionItems": [
+                {
+                    "id": "a3",
+                    "status": "To Do",
+                    "task": "Send redlines to ACME",
+                    "owner": "Legal",
+                    "due": "Today",
+                    "source": "vendor_contract.txt"
+                },
+                {
+                    "id": "a4",
+                    "status": "In Progress",
+                    "task": "Schedule negotiation sync",
+                    "owner": "Bala",
+                    "due": "Wednesday",
+                    "source": "negotiation_notes.txt"
+                }
+            ],
+            "risks": [
+                {
+                    "id": "r3",
+                    "risk": "Missing indemnification clause",
+                    "impact": "High",
+                    "mitigation": "Provide ACME with our standard MSA addendum."
+                },
+                {
+                    "id": "r4",
+                    "risk": "Delayed procurement timeline",
+                    "impact": "Low",
+                    "mitigation": "Fast-track legal review once new terms are submitted."
+                }
+            ],
+            "generatedContent": {
+                "draftEmail": "Hi ACME Team,\n\nWe have reviewed the latest contract draft. Please find our redlines attached, specifically addressing the missing indemnification clause.\n\nThanks,\nBala",
+                "draftWorkItem": {
+                    "title": "ACME Contract Redlines",
+                    "description": "Send standard MSA addendum to ACME Corp for their review.",
+                    "priority": "High"
+                }
+            },
+            "files": [
+                {
+                    "id": "d6d6d6d6-6666-6666-6666-666666666666",
+                    "filename": "cost_analysis.txt",
+                    "extension": "txt",
+                    "size": 207,
+                    "uploadedAt": "Yesterday",
+                    "status": "Ready",
+                    "characterCount": 207,
+                    "storagePath": "c:/Users/balac/OneDrive/Desktop/working file/OrchestrAI/backend/uploads\\a1b2c3d4-0002-4002-8002-000000000002\\d6d6d6d6-6666-6666-6666-666666666666.txt",
+                    "extractedTextPath": "c:/Users/balac/OneDrive/Desktop/working file/OrchestrAI/backend/uploads\\a1b2c3d4-0002-4002-8002-000000000002\\d6d6d6d6-6666-6666-6666-666666666666_extracted.txt"
+                },
+                {
+                    "id": "d5d5d5d5-5555-5555-5555-555555555555",
+                    "filename": "negotiation_notes.txt",
+                    "extension": "txt",
+                    "size": 292,
+                    "uploadedAt": "Yesterday",
+                    "status": "Ready",
+                    "characterCount": 292,
+                    "storagePath": "c:/Users/balac/OneDrive/Desktop/working file/OrchestrAI/backend/uploads\\a1b2c3d4-0002-4002-8002-000000000002\\d5d5d5d5-5555-5555-5555-555555555555.txt",
+                    "extractedTextPath": "c:/Users/balac/OneDrive/Desktop/working file/OrchestrAI/backend/uploads\\a1b2c3d4-0002-4002-8002-000000000002\\d5d5d5d5-5555-5555-5555-555555555555_extracted.txt"
+                },
+                {
+                    "id": "d4d4d4d4-4444-4444-4444-444444444444",
+                    "filename": "vendor_contract.txt",
+                    "extension": "txt",
+                    "size": 290,
+                    "uploadedAt": "Yesterday",
+                    "status": "Ready",
+                    "characterCount": 290,
+                    "storagePath": "c:/Users/balac/OneDrive/Desktop/working file/OrchestrAI/backend/uploads\\a1b2c3d4-0002-4002-8002-000000000002\\d4d4d4d4-4444-4444-4444-444444444444.txt",
+                    "extractedTextPath": "c:/Users/balac/OneDrive/Desktop/working file/OrchestrAI/backend/uploads\\a1b2c3d4-0002-4002-8002-000000000002\\d4d4d4d4-4444-4444-4444-444444444444_extracted.txt"
+                }
+            ]
+        },
+        {
+            "id": "a1b2c3d4-0003-4003-8003-000000000003",
+            "name": "Product Launch",
+            "scenario": "Marketing & Sales",
+            "documents": 3,
+            "updated": "3 days ago",
+            "status": "In Progress",
+            "priority": "High",
+            "aiConfidence": 91,
+            "nextBestAction": {
+                "title": "Finalize Marketing Assets",
+                "owner": "Marketing",
+                "due": "Next Monday",
+                "reason": "Launch date approaching",
+                "whyDescription": "All core messaging must be locked in before we can brief the PR agency next Tuesday.",
+                "evidence": [
+                    {
+                        "source": "product_requirements.txt",
+                        "quote": "PR Agency Briefing: Scheduled for next Tuesday morning."
+                    },
+                    {
+                        "source": "launch_checklist.txt",
+                        "quote": "PR agency sync scheduled for Tuesday."
+                    }
+                ]
+            },
+            "timeline": [
+                {
+                    "label": "Workspace Created",
+                    "completed": true
+                },
+                {
+                    "label": "Documents Uploaded",
+                    "completed": true
+                },
+                {
+                    "label": "AI Analysis Completed",
+                    "completed": true
+                },
+                {
+                    "label": "Decision Generated",
+                    "completed": true
+                },
+                {
+                    "label": "Action Approved",
+                    "completed": false
+                },
+                {
+                    "label": "Action Executed",
+                    "completed": false
+                }
+            ],
+            "decisionBrief": [
+                {
+                    "title": "Overall Summary",
+                    "content": "The upcoming product launch requires alignment across sales, marketing, and engineering."
+                },
+                {
+                    "title": "Business Impact",
+                    "content": "A successful launch is projected to increase Q4 revenue by 20%."
+                },
+                {
+                    "title": "Key Decisions",
+                    "content": "Approve the final marketing budget and PR messaging."
+                },
+                {
+                    "title": "Open Questions",
+                    "content": "Will engineering meet the code freeze deadline?"
+                },
+                {
+                    "title": "Recommendations",
+                    "content": "Increase ad spend allocation by 10% for the first two weeks."
+                }
+            ],
+            "actionItems": [
+                {
+                    "id": "a5",
+                    "status": "Draft",
+                    "task": "Draft PR Briefing",
+                    "owner": "Marketing",
+                    "due": "Next Tuesday",
+                    "source": "product_requirements.txt"
+                }
+            ],
+            "risks": [
+                {
+                    "id": "r5",
+                    "risk": "Engineering delay",
+                    "impact": "High",
+                    "mitigation": "Implement feature flags to allow a soft launch if needed."
+                }
+            ],
+            "generatedContent": {
+                "draftEmail": "Hi PR Team,\n\nPlease see the attached product messaging guide for our upcoming launch. Let's sync on Tuesday to finalize the strategy.\n\nBest,\nBala",
+                "draftWorkItem": {
+                    "title": "PR Briefing Document",
+                    "description": "Finalize the PR briefing document based on the latest messaging guide.",
+                    "priority": "Medium"
+                }
+            },
+            "files": [
+                {
+                    "id": "d9d9d9d9-9999-9999-9999-999999999999",
+                    "filename": "marketing_plan.txt",
+                    "extension": "txt",
+                    "size": 251,
+                    "uploadedAt": "3 days ago",
+                    "status": "Ready",
+                    "characterCount": 251,
+                    "storagePath": "c:/Users/balac/OneDrive/Desktop/working file/OrchestrAI/backend/uploads\\a1b2c3d4-0003-4003-8003-000000000003\\d9d9d9d9-9999-9999-9999-999999999999.txt",
+                    "extractedTextPath": "c:/Users/balac/OneDrive/Desktop/working file/OrchestrAI/backend/uploads\\a1b2c3d4-0003-4003-8003-000000000003\\d9d9d9d9-9999-9999-9999-999999999999_extracted.txt"
+                },
+                {
+                    "id": "d8d8d8d8-8888-8888-8888-888888888888",
+                    "filename": "launch_checklist.txt",
+                    "extension": "txt",
+                    "size": 245,
+                    "uploadedAt": "3 days ago",
+                    "status": "Ready",
+                    "characterCount": 245,
+                    "storagePath": "c:/Users/balac/OneDrive/Desktop/working file/OrchestrAI/backend/uploads\\a1b2c3d4-0003-4003-8003-000000000003\\d8d8d8d8-8888-8888-8888-888888888888.txt",
+                    "extractedTextPath": "c:/Users/balac/OneDrive/Desktop/working file/OrchestrAI/backend/uploads\\a1b2c3d4-0003-4003-8003-000000000003\\d8d8d8d8-8888-8888-8888-888888888888_extracted.txt"
+                },
+                {
+                    "id": "d7d7d7d7-7777-7777-7777-777777777777",
+                    "filename": "product_requirements.txt",
+                    "extension": "txt",
+                    "size": 269,
+                    "uploadedAt": "3 days ago",
+                    "status": "Ready",
+                    "characterCount": 269,
+                    "storagePath": "c:/Users/balac/OneDrive/Desktop/working file/OrchestrAI/backend/uploads\\a1b2c3d4-0003-4003-8003-000000000003\\d7d7d7d7-7777-7777-7777-777777777777.txt",
+                    "extractedTextPath": "c:/Users/balac/OneDrive/Desktop/working file/OrchestrAI/backend/uploads\\a1b2c3d4-0003-4003-8003-000000000003\\d7d7d7d7-7777-7777-7777-777777777777_extracted.txt"
+                }
+            ]
+        }
+    ]
+}
