@@ -299,13 +299,7 @@ def delete_workspace(workspace_id: str):
             
         print(f"Workspace {workspace_id} found at index {workspace_idx}")
             
-        # ADD DEBUG LOGGING HERE
-        current_ids = [w["id"] for w in db.get("workspaces", [])]
-        print("\nBefore Delete")
-        print("Workspace IDs:")
-        for w_id in current_ids:
-            print(w_id)
-        print(f"\nDeleting:\n{workspace_id}\n")
+
             
         # Remove files from disk
         uploads_dir = os.path.join(os.getcwd(), "uploads", workspace_id)
