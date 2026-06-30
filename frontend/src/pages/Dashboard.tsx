@@ -83,15 +83,13 @@ export default function Dashboard() {
   const pendingActions = workspaces.filter(ws =>
     ws.status !== 'Analysis Complete' && ws.status !== 'Action Executed' && ws.status !== 'Completed'
   ).length;
-  const highPriorityCount = workspaces.filter(ws => ws.priority === 'High').length;
+
   const criticalRisks = workspaces.reduce((sum, ws) => {
     const risks = ws.analysis?.risks ?? ws.risks ?? [];
     return sum + risks.filter((r: any) => r.impact === 'High').length;
   }, 0);
   const avgDocsPerWorkspace = totalWorkspaces > 0 ? (totalDocuments / totalWorkspaces).toFixed(1) : '0';
-  const avgConfidence = analyzedCount > 0
-    ? Math.round(workspaces.filter(ws => ws.analysis).reduce((sum, ws) => sum + (ws.analysis!.aiConfidence ?? 0), 0) / analyzedCount)
-    : 0;
+
   const successRate = totalWorkspaces > 0 ? Math.round((analyzedCount / totalWorkspaces) * 100) : 0;
 
   // Recent Activity: executed actions across all workspaces

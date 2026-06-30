@@ -26,7 +26,7 @@ export default function AIBriefingModal({ isOpen, onClose, workspace }: AIBriefi
   const brief = analysis?.decisionBrief ?? workspace.decisionBrief ?? [];
   const risks = analysis?.risks ?? workspace.risks ?? [];
   const actionItems = analysis?.actionItems ?? workspace.actionItems ?? [];
-  const nba = analysis?.nextBestAction ?? workspace.nextBestAction;
+
   const confidence = analysis?.aiConfidence ?? workspace.aiConfidence ?? 0;
   const timestamp = analysis?.metadata?.analysisTimestamp;
 

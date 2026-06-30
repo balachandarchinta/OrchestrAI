@@ -1,5 +1,5 @@
 import { Bell, Search, User, LogOut, Settings, HelpCircle, Info, Sparkles } from 'lucide-react';
-import { useLocation, Link, useParams } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
 import { useState, useRef, useEffect } from 'react';
 import { useWorkspaceContext } from '../../context/WorkspaceContext';
 import AIBriefingModal from './AIBriefingModal';

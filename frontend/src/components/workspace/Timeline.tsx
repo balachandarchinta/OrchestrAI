@@ -1,4 +1,4 @@
-import { CheckCircle, Circle } from 'lucide-react';
+
 import type { WorkspaceData } from '../../types/workspace';
 
 interface TimelineProps {
